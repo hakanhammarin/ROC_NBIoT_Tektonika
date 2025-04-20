@@ -55,5 +55,7 @@ sleep 0.3
 
 screen -S ModemQuec -X kill
 
+pm2 restart monit_trm250
+
 # cat screenlog.0
 
